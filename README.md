@@ -4,35 +4,11 @@ A simple blog website built with Node.js, Express, MongoDB, and EJS. This websit
 blog posts.
 
 ## Table of Contents
-- [Installation](#installation)
 - [Usage](#usage)
 - [Routes](#routes)
 - [Technologies](#technologies)
 - [Contributing](#contributing)
 
-## Installation
-
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/your-username/blog-website.git
-    cd blog-website
-    ```
-
-2. **Install dependencies**:
-    ```sh
-    npm install
-    ```
-
-3. **Start MongoDB**:
-    Ensure MongoDB is running on your local machine. If not, start it using:
-    ```sh
-    mongod
-    ```
-
-4. **Run the server**:
-    ```sh
-    npm start
-    ```
 
 ## Usage
 
