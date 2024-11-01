@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(247, 243, 235);
+    font-family: sans-serif;
+    position: absolute;
+    left: 25vw;
+}
+
+.info #title {
+    font-weight: 300;
+}
+
+.info2 #content {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.update button {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.head h1 {
+    text-decoration: underline;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.head button {
+    border: none;
+    color: white;
+    background-color: maroon;
+    padding: 4px 6px 4px 6px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.editupdate {
+    border-radius: 5px;
+}

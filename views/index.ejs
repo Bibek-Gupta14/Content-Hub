@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>WELCOME TO THE BLOG WEBSITE</h1>
+    <h3>&nbsp;&nbsp;Posts</h3>
+    
+    <% for(let info of information)  {%>
+        <div class="info">
+            <%= info.title %>
+            <form class="formbtn formbtn1" method="get" action="/main/<%= info.id %>/edit">
+                <button> Edit</button>
+            </form>
+            <form class="formbtn formbtn2" action="/main/<%= info.id %>?_method=DELETE" method="post">
+                <button>Delete</button>
+            </form>
+        </div>
+        <% } %>
+
+        <form action="/main/create" method="get">
+            <button class="unique">Create </button>
+        </form>
+</body>
+</html>

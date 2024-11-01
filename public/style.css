@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(247, 243, 235);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 30px;
+    width: 96vw;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.info a {
+    text-decoration: none;
+    
+}
+
+.info a:link {
+    color: black;
+}
+
+.formbtn button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.formbtn1 {
+    position: absolute;
+    left: 90vw;
+}
+
+.formbtn2 {
+    position: absolute;
+    left: 93.5vw;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.unique {
+    position: absolute;
+    left: 50vw;
+}
+
+.backfromcreate {
+    border: none;
+    color: white;
+    background-color: maroon;
+    padding: 4px 6px 4px 6px;
+    border-radius: 5px;
+    font-size: 12px;
+    position: absolute;
+    left: 40vw;
+    top: 265px;
+}

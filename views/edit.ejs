@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style2.css">
+</head>
+<body>
+    <div class="head">
+        <h1>View/Edit Post</h1>
+        <form action="/main" method="get">
+            <button>Go back</button>
+        </form>
+    </div>
+    <form class="update" action="/main/<%= info.id %>?_method=PUT" method="post">
+    <h4>Title</h4>
+    <div class="info">
+        <textarea name="title" id="title" cols="70" rows="2"> <%= info.title %></textarea> 
+    </div> <br>
+
+    <h4>Content</h4>
+    <div class="info2">
+        <textarea name="content" id="content" cols="90" rows="6"><%= info.content %></textarea>
+    </div>
+        <button class="editupdate">Update</button>
+    </form>
+</body>
+</html>
